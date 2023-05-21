@@ -2,6 +2,7 @@
 
 ###using keras + tensorflow for NER###
 
+python3.7
 requirement：tensorflow == 1.14  ,keras = 2.2.0, keras-self-attention, keras_multi_head, keras_contrib
 
 ##Model
@@ -9,7 +10,7 @@ requirement：tensorflow == 1.14  ,keras = 2.2.0, keras-self-attention, keras_mu
 embedding + MultiHeadAttention + BiLSTM + CRF
 
 
-## Data Set
+## Data Set(BIO)
 中	O
 华	O
 人	O
@@ -20,7 +21,8 @@ embedding + MultiHeadAttention + BiLSTM + CRF
 
 data from MSRA
 
-You can use yourself's  data, and need to change some code:
+You can use yourself's  data, and you need to change some code:
+
 1.run.py:
 row110 crf = CRF(7, sparse_target=True),because this data set has "O", "B-PER", "I-PER", "B-LOC", "I-LOC" ,"B-ORG", "I-ORG"
 you can update "7" to any values based on your data set
@@ -39,3 +41,4 @@ you should update based on your data set
 
 ## Reference
 [https://github.com/stephen-v/zh-NER-keras](https://github.com/jiangfeng13/NER_Keras)
+update code based on this project, thank you!
