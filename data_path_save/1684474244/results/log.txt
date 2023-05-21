@@ -1,0 +1,21 @@
+2023-05-19 13:30:44,587:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, dropout=0.5, embedding_dim=100, epoch=10, hidden_dim=300, id_path='data_path', lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', test_data='data_path', train_data='data_path', update_embedding=True)
+2023-05-19 13:30:55,417:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\keras\initializers.py:119: calling RandomUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-05-19 13:30:55,431:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:1288: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-05-19 13:30:55,489:WARNING: Entity <bound method MultiHeadAttention.call of <keras_multi_head.multi_head_attention.MultiHeadAttention object at 0x000001BE3495F2C8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method MultiHeadAttention.call of <keras_multi_head.multi_head_attention.MultiHeadAttention object at 0x000001BE3495F2C8>>: AttributeError: module 'gast' has no attribute 'Index'
+2023-05-19 13:30:55,578:WARNING: Entity <bound method ScaledDotProductAttention.call of <keras_self_attention.scaled_dot_attention.ScaledDotProductAttention object at 0x000001BE30C18DC8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method ScaledDotProductAttention.call of <keras_self_attention.scaled_dot_attention.ScaledDotProductAttention object at 0x000001BE30C18DC8>>: AttributeError: module 'gast' has no attribute 'Index'
+2023-05-19 13:30:55,689:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:97: calling GlorotUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-05-19 13:30:55,689:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:97: calling Orthogonal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-05-19 13:30:55,689:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:97: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2023-05-19 13:30:55,855:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\keras\backend.py:3794: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where

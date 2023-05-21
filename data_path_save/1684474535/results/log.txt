@@ -1,0 +1,1 @@
+2023-05-19 13:35:35,183:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, dropout=0.5, embedding_dim=100, epoch=10, hidden_dim=300, id_path='data_path', lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', test_data='data_path', train_data='data_path', update_embedding=True)

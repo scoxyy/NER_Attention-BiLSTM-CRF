@@ -1,0 +1,12 @@
+2023-05-19 14:28:27,792:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, dropout=0.5, embedding_dim=100, epoch=10, hidden_dim=300, id_path='data_path', lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', test_data='data_path', train_data='data_path', update_embedding=True)
+2023-05-19 14:28:38,768:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:71: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2023-05-19 14:28:38,782:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:514: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-05-19 14:28:38,784:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:4076: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+2023-05-19 14:28:38,793:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:4123: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+2023-05-19 14:28:38,960:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor

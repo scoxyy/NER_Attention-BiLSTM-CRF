@@ -1,0 +1,18 @@
+2023-05-19 14:12:29,130:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, dropout=0.5, embedding_dim=100, epoch=10, hidden_dim=300, id_path='data_path', lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', test_data='data_path', train_data='data_path', update_embedding=True)
+2023-05-19 14:12:40,013:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:71: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2023-05-19 14:12:40,027:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:514: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-05-19 14:12:40,028:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:4076: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+2023-05-19 14:12:40,053:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:130: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2023-05-19 14:12:40,057:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:3363: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2023-05-19 14:12:40,465:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py:2920: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2023-05-19 14:12:40,603:WARNING: From E:\anaconda\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:1288: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
