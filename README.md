@@ -2,11 +2,11 @@
 
 ###using keras + tensorflow for NER###
 
-requirement：tensorflow == 1.14  ,keras = 2.2.0, keras-self-attention,keras_multi_head
+requirement：tensorflow == 1.14  ,keras = 2.2.0, keras-self-attention, keras_multi_head, keras_contrib
 
 ##Model
 
-embedding + multiheadattention + BiLSTM + CRF
+embedding + MultiHeadAttention + BiLSTM + CRF
 
 
 ## Data Set
@@ -20,11 +20,22 @@ embedding + multiheadattention + BiLSTM + CRF
 
 data from MSRA
 
-you can use yourself's  data, only need to change the code in  `  self_data `
+You can use yourself's  data, and need to change some code:
+1.run.py:
+row110 crf = CRF(7, sparse_target=True),because this data set has "O", "B-PER", "I-PER", "B-LOC", "I-LOC" ,"B-ORG", "I-ORG"
+you can update "7" to any values based on your data set
+
+2.data.py
+row5 tag2label = {"O": 0,
+             "B-PER": 1, "I-PER": 2,
+             "B-LOC": 3, "I-LOC": 4,
+             "B-ORG": 5, "I-ORG": 6
+             }
+you should update based on your data set
 
 ## Use
 
 `python run.py --mode=train `
 
 ## Reference
-https://github.com/stephen-v/zh-NER-keras
+[https://github.com/stephen-v/zh-NER-keras](https://github.com/jiangfeng13/NER_Keras)
